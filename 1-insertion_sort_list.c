@@ -36,7 +36,7 @@ void insertion_sort_list(listint_t **list)
 	if (!list || !(*list))
 		return;
 
-	for (act = *list; act != NULL; act= act->next)
+	for (act = *list; act != NULL; act = act->next)
 	{
 		while (act->next != NULL && act->n > act->next->n)
 		{
