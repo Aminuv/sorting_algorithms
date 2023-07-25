@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * swap_int - the swaps two elements in array
+ * swp_int - the swaps two elements in array
  * @a: first element
  * @b: second element
  */
@@ -16,7 +16,7 @@ void swp_int(int *a, int *b)
 }
 
 /**
- * lomuto_partition - partition through an array of integers
+ * lomut_part - partition through an array of integers
  * @array: array of integers
  * @size: the size of the array
  * @l: first index of array
@@ -50,7 +50,7 @@ int lomut_part(int *array, size_t size, int l, int h)
 }
 
 /**
- * lomuto_sort - the implement quick sorted algorithm using recursion
+ * lomuto_sorts - the implement quick sorted algorithm using recursion
  * @array: the array
  * @size: the size of that array
  * @l: first index of that array
