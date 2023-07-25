@@ -25,6 +25,10 @@ void bubble_sort(int *array, size_t size);
 void swap_nodes(listint_t **list, listint_t **node1, listint_t **node2);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
+void swp_int(int *a, int *b);
+int lomut_part(int *array, size_t size, int l, int h);
+void lomuto_sorts(int *array, size_t size, int l, int h);
+void quick_sort(int *array, size_t size);
 
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
